@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#000000"><meta name="description" content="ChrisHub — ressources numériques, livres PDF, logiciels et modèles web.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><link rel="stylesheet" href="style.css">
+<title>Téléchargements | ChrisHub</title></head><body>
+<div id="nav" data-page="telechargements"></div><main><section class="sec" id="telechargements"><div class="wrap">
+<div class="dh"><h2>Fichiers <b>à la une</b></h2><div class="arrows"><button aria-label="Précédent" class="ib" id="prev">‹</button><button aria-label="Suivant" class="ib" id="next">›</button></div></div>
+<div class="bar"><label class="search"><i class="fa-solid fa-magnifying-glass"></i><input aria-label="Rechercher" id="q" placeholder="Rechercher un livre, un cours, un PDF… (touche /)" type="search"/></label>
+<div class="chips" id="chips"><button aria-pressed="true" class="chip" data-c="all">Tous</button><button aria-pressed="false" class="chip" data-c="livre">Livres PDF</button><button aria-pressed="false" class="chip" data-c="logiciel">Logiciels</button><button aria-pressed="false" class="chip" data-c="modele">Modèles web</button><button aria-pressed="false" class="chip" data-c="fav"><i class="fa-solid fa-star"></i> Favoris</button></div></div>
+<div class="bar api-tools"><div class="chips" id="srcs" role="group" aria-label="Sources en ligne"><button aria-pressed="true" class="chip" data-s="all">Toutes les sources</button><button aria-pressed="false" class="chip" data-s="ol">Open Library</button><button aria-pressed="false" class="chip" data-s="gut">Gutenberg</button><button aria-pressed="false" class="chip" data-s="ia">Archive.org</button><button aria-pressed="false" class="chip" data-s="gb">Google Books</button></div>
+<label class="lang-sel"><span>Langue</span><select id="lang"><option value="all">Toutes</option><option value="fr">Français</option><option value="en">English</option></select></label></div>
+<p aria-live="polite" id="count" style="color:var(--mute);margin-bottom:16px"></p>
+<div class="track" id="files"></div></div></section></main><div id="foot"></div><script src="script.js"></script></body></html>

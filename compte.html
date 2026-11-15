@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#000000"><meta name="description" content="ChrisHub — ressources numériques, livres PDF, logiciels et modèles web.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><link rel="stylesheet" href="style.css">
+<title>Mon compte | ChrisHub</title></head><body>
+<div id="nav" data-page="compte"></div><main><section class="sec" id="compte"><div class="wrap">
+<div class="hd"><h2>Mon <b>compte</b></h2><p>Connectez-vous ou créez un compte pour garder vos favoris.</p></div>
+<div class="acc">
+<div hidden="" id="me"><h3>Connecté</h3><p style="color:var(--mute);margin:8px 0 18px">Bienvenue, <strong id="meName"></strong>.</p><button class="btn p" id="out2" type="button">Déconnexion</button></div>
+<div id="forms"><div class="chips" id="tabs"><button aria-pressed="true" class="chip" data-t="login">Connexion</button><button aria-pressed="false" class="chip" data-t="signup">Inscription</button></div>
+<form class="fm" id="login" novalidate=""><label for="lu">Identifiant</label><input autocomplete="username" id="lu"/><label for="lp">Mot de passe</label><input autocomplete="current-password" id="lp" type="password"/><button class="btn p fw">Se connecter</button><p class="msg" id="lmsg" role="status"></p></form>
+<form class="fm" hidden="" id="signup" novalidate=""><label for="nom">Nom complet</label><input autocomplete="name" id="nom"/><label for="su">Identifiant</label><input autocomplete="username" id="su"/><label for="sp">Mot de passe</label><input autocomplete="new-password" id="sp" type="password"/><button class="btn p fw">S’inscrire</button><p class="msg" id="smsg" role="status"></p></form></div>
+</div></div></section></main><div id="foot"></div><script src="script.js"></script></body></html>
